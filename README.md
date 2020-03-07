@@ -20,7 +20,7 @@ for _, block := range bc.blocks {
 ```
 
 ## Output
-```
+```cmd
 Previous block hash: 
 Data: Genesis Block
 Actual block hash: ff43c00c7033390f0c4256a97897fb42bff3d327366589ac931ccd180c78060f
