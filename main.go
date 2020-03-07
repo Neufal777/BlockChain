@@ -9,7 +9,6 @@ func main() {
 	bc.AddBlock("0.6 BTC")
 	bc.AddBlock("0.3 BTC")
 	bc.AddBlock("0.1 BTC")
-	bc.AddBlock("0.7 BTC")
 
 	for _, block := range bc.blocks {
 
