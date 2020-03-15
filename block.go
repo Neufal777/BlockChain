@@ -8,9 +8,9 @@ import (
 )
 
 type Block struct {
-	Index         int32
-	Difficulty    int32
-	Nonce         int32
+	//Index         int32
+	//Difficulty    int32
+	//Nonce         int32
 	Timestamp     int64
 	Data          []byte
 	PrevBlockHash []byte
@@ -28,9 +28,7 @@ func (b *Block) SetHash() {
 func newBlock(data string, PrevBlockHash []byte) *Block {
 
 	block := &Block{
-		Index:         1,
-		Difficulty:    2,
-		Nonce:         1,
+
 		Timestamp:     time.Now().Unix(),
 		Data:          []byte(data),
 		PrevBlockHash: PrevBlockHash,
