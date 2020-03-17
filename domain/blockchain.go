@@ -19,5 +19,6 @@ func NewGenesisBlock() *Block {
 
 func NewBlockchain() *Blockchain {
 
-	return &Blockchain{[]*Block{NewGenesisBlock()}}
+	return &Blockchain{
+		[]*Block{NewGenesisBlock()}}
 }
